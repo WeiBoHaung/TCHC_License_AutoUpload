@@ -4,6 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+beautifulsoup4 = "*"
+numpy = "==1.21.0"
+opencv-python = "==4.5.3.56"
+requests = "==2.25.1"
+selenium = "==3.141.0"
+webdriver-manager = "==3.4.2"
+pytesseract = "==0.3.8"
 
 [dev-packages]
 

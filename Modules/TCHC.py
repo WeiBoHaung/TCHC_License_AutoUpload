@@ -159,11 +159,11 @@ class TCHC:
                     qualifiedDate=td.get_text()
                 elif td_index ==1:
                     source=td.get_text()
-                elif td_index == 5:
-                    subject=td.get_text()
                 elif td_index == 2:
-                    hour=td.get_text()
+                    subject=td.get_text()
                 elif td_index == 3:
+                    hour=td.get_text()
+                elif td_index == 4:
                     status=td.get_text()
 
                 td_index=td_index+1
